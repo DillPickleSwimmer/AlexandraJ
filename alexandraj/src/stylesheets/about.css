@@ -1,0 +1,77 @@
+.about-page {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.about-page .photo {
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	background-image: url('../assets/me.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about-page .linkedin {
+	width: 40px;
+	height: 40px;
+	background-image: url('../assets/linkedin-logo.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about-page .content {
+	max-width: 550px;
+	padding-left: 60px;
+	padding-top: 30px;
+}
+
+.about-page .content > div {
+	margin-bottom: 15px;
+}
+
+.about-page .main-title {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.about-page .sub-title {
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+
+.about-page .resume-button-wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.about-page .resume-button-wrapper .resume-button {
+	padding: 10px;
+	border: 1px solid #0066ff;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.about-page .mini-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.about-page .sub-sections {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	direction: row;
+}
+
+.about-page .sub-section {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	max-width: 300px;
+}

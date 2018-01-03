@@ -1,0 +1,64 @@
+.menu {
+	background-color: #0f0f0f;
+	color: white;
+	margin: 20px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 15px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.menu .nav-icon {
+	width: 50px;
+	height: 50px;
+	margin: -10px;
+	background-image: url('../assets/nav-icon.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu .nav-icon:hover {
+	width: 52px;
+	height: 52px;
+	margin: -11px;
+}
+
+.menu .close {
+	width: 10px;
+	height: 10px;
+	background-image: url('../assets/close.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 5px;
+}
+
+.menu .close:hover {
+	width: 11px;
+	height: 11px;
+	margin-left: 4px;
+}
+
+.menu .list {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.menu .closed {
+	visibility: hidden;
+	display: none;
+}
+
+.menu li:hover {
+	font-weight: bold;
+}

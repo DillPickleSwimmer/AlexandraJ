@@ -1,0 +1,110 @@
+.experience-card-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.experience-card {
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.experience-card > div {
+	width: 100%;
+}
+
+.experience-card .logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-size: cover;
+	background-position: center center;
+	margin-bottom: 20px;
+	border: 1px solid lightgrey;
+}
+
+.experience-card .UW .logo {
+	background-image: url('../assets/UW_logo1.png');
+}
+
+.experience-card .redbooth .logo {
+	background-image: url('../assets/redbooth_logo.jpg');
+}
+
+.experience-card .auvik .logo {
+	background-image: url('../assets/auvik_logo.png');
+}
+
+.experience-card .manulife .logo {
+	background-image: url('../assets/manulife_logo.png');
+}
+
+.experience-card .shhs .logo {
+	background-image: url('../assets/shhs_logo.png');
+}
+
+.experience-card .company {
+	font-family: 'Spectral SC';
+	font-size: 26px;
+}
+
+.experience-card .title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.experience-card .description {
+	font-size: 13px;
+	color: grey;
+}
+
+.experience-card .content {
+	min-width: 100%;
+}
+
+.experience-card .location > div, .experience-card .duration > div {
+	display: inline-block;
+}
+
+.experience-card .position {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Spectral SC';
+	padding-bottom: 10px;
+}
+
+.experience-card-sections {
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.experience-card-sections .title {
+	display: inline-block;
+	text-align: right;
+	width: 100px;
+	min-width: 100px;
+	max-width: 100px;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 14px;
+	border-right: 1px solid grey;
+	margin-bottom: 0;
+}
+
+.experience-card-sections .content {
+	display: inline-block;
+	min-width: 0;
+	padding: 5px;
+}
+

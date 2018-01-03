@@ -1,0 +1,91 @@
+.resume {
+	width: 850px;
+	height: 1090px;
+	background-color: white;
+}
+
+.resume a {
+	font-weight: normal;
+}
+
+.resume .header-section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.resume .header-section .photo {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	background-image: url('../assets/me.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	margin: 10px 50px;
+	float: right;
+}
+
+.resume .header-section .title {
+	background-color: #0f0f0f;
+	padding: 20px;
+	color: white;
+	font-size: 32px;
+	margin: 30px;
+}
+
+.resume .header-section .contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.resume .resume-section {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.resume .resume-section .label {
+	width: 150px;
+	min-width: 150px;
+	height: 100%;
+	border-right: 1px solid black;
+	text-align: right;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.resume .resume-section .details {
+	padding: 5px;
+}
+
+.resume-section-card {
+	padding-right: 30px;
+}
+
+.resume-section-card .card-name, 
+.resume-section-card .location, 
+.resume-section-card .time {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.resume-section-card .card-name {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.resume-section-card .position {
+	visibility: false;
+	display: none;
+}
+
+.resume-section-card .content {
+	padding-left: 20px;
+}
+
+.resume-section-card .skills {
+	font-style: italic;
+}

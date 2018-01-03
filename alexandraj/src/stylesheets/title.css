@@ -1,0 +1,49 @@
+.title {
+	font-family: 'Spectral SC', serif;
+}
+
+.fixed-title {
+	height: 100%;
+	width: 100%;
+  	font-size: 28px;
+}
+
+.fixed-title .main-title {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	font-size: 28px;
+  	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fixed-title .main-title .content {
+	background-color: #0f0f0f;
+	color: white;
+	padding: 16px;
+}
+
+.fixed-title>.about {
+	background-image: url('../assets/about.JPG');
+}
+
+.fixed-title>.education {
+	background-image: url('../assets/education.jpg');
+}
+
+.fixed-title>.experience {
+	background-image: url('../assets/experience.jpg');
+}
+
+.fixed-title>.projects {
+	background-image: url('../assets/projects.jpeg');
+}
+
+.fixed-title>.splash {
+	background-image: url('../assets/splash1.jpg');
+	image-orientation: 90deg;
+}
