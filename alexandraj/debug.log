@@ -40,3 +40,6 @@
 [0103/152504.363:ERROR:process_info.cc(632)] range at 0x6111589600000000, size 0x292 fully unreadable
 [0103/152504.363:ERROR:process_info.cc(632)] range at 0x611158f800000000, size 0x292 fully unreadable
 [0103/152504.363:ERROR:process_info.cc(632)] range at 0x0, size 0x292 fully unreadable
+[0103/181614.944:ERROR:process_info.cc(632)] range at 0x78c0589400000000, size 0x223 fully unreadable
+[0103/181614.944:ERROR:process_info.cc(632)] range at 0x78c058f600000000, size 0x223 fully unreadable
+[0103/181614.944:ERROR:process_info.cc(632)] range at 0x0, size 0x223 fully unreadable
