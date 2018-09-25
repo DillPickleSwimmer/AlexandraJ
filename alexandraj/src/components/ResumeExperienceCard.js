@@ -9,9 +9,9 @@ class ResumeExperienceCard extends Component {
       <div className="resume-section-card">
         <div className="head">
           <div className="card-name title">{ name }</div>
-          {' '} &#8226; {' '}
+          {' '} <div className="special-text">&#8226;</div> {' '}
           <div className="location title">{ location }</div>
-          {' '} &#8226; {' '}
+          {' '} <div className="special-text">&#8226;</div> {' '}
           <div className="time title">{ time }</div>
         </div>
         <div className="content">

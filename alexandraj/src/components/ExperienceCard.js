@@ -11,7 +11,9 @@ class ExperienceCard extends Component {
       	<div className={className}>
   			<div className="title">
 	      		<div className="logo"></div>
-		      	<div className="company">&#11164; { company }  &#11166;</div>
+		      	<div className="company">
+		      		<div className="special-text">-</div> { company } <div className="special-text">-</div>
+	      		</div>
 		      	<div className="description">{ description }</div>
 		      	<div className="location">
 		      		<div className="city">{ city }</div> &#8226;{' '}

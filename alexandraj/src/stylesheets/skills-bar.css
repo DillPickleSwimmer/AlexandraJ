@@ -1,0 +1,79 @@
+.skills-bar {
+
+}
+
+.skills-bar .arrow {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	font-size: 14px;
+	align-items: center;
+	height: 25px;
+	box-sizing: border-box;
+	padding-right: 30px;
+}
+
+.skills-bar .arrow .left,
+.skills-bar .arrow .right {
+	padding: 0 3px;
+	font-weight: bold;
+	min-width: 100px;
+	box-sizing: border-box;
+}
+
+.skills-bar .arrow .line-left,
+.skills-bar .arrow .line-center,
+.skills-bar .arrow .line-right {
+	height: 1px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	min-width: 30px;
+}
+
+.skills-bar .arrow .line-center {
+	width: 100%;
+}
+
+.skills-bar .arrow .head {
+	font-size: 30px;
+	margin-left: -15px;
+}
+
+.skills-bar .arrow-head {
+	padding: 0;
+	height: 0;
+	width: 0;
+	border: 10px solid transparent;
+	border-left: 10px solid black;
+}
+
+.skills-bar .skill {
+	font-size: 14px;
+	width: 110px;
+	overflow: wrap;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+}
+
+.skills-bar .skill .connect-line {
+	height: 100%;
+	width: 0;
+	border-right: 4px dotted lightgrey;
+}
+
+.skills-bar .skill .skill-name {
+	padding: 3px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.skills-bar .top-skills {
+	margin-left: 55px;
+	height: 50px;
+}
+
+.skills-bar .bottom-skills {
+	height: 40px;
+}

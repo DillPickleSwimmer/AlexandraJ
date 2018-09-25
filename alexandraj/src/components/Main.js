@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Splash from "./Splash";
 import Menu from "./Menu";
 import MenuAnchor from "./MenuAnchor";
+import Projects from "./Projects";
  
 class Main extends Component {
   render() {
@@ -47,7 +48,7 @@ class Main extends Component {
             title="Projects"
             className="projects"
           >
-            Coming Soon! 
+            <Projects />
           </Section>
           <MenuAnchor index="contact" />
           <Footer />

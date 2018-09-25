@@ -1,6 +1,6 @@
 .resume {
 	width: 850px;
-	height: 1090px;
+	height: 1190px;
 	background-color: white;
 }
 
@@ -12,18 +12,19 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	height: 115px;
 }
 
 .resume .header-section .photo {
-	width: 120px;
-	height: 120px;
-	border-radius: 60px;
+	width: 130px;
+	height: 130px;
+	border-radius: 75px;
 	background-image: url('../assets/me.png');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-
-	margin: 10px 50px;
+	margin-top: 20px;
+	margin-bottom: -20px;
 	float: right;
 }
 
@@ -32,41 +33,60 @@
 	padding: 20px;
 	color: white;
 	font-size: 32px;
-	margin: 30px;
+	margin: 10px 30px;
 }
 
 .resume .header-section .contact {
 	display: flex;
 	flex-direction: column;
+	padding-right: 30px;
+	font-size: 15px;
 }
 
 .resume .resume-section {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	width: 100%;
-	margin-bottom: 10px;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+.resume .bottom-section {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .resume .resume-section .label {
-	width: 150px;
-	min-width: 150px;
+	width: 100%;
+	border-bottom: 1px solid black;
 	height: 100%;
-	border-right: 1px solid black;
-	text-align: right;
-	font-size: 20px;
-	padding: 5px;
+	font-size: 24px;
+	padding: 4px;
+	padding-bottom: 0;
+}
+
+.resume .resume-section .label div{
+	display: inline-block;
+}
+
+.resume .resume-section .sub-label {
+	font-size: 14px;
+	font-style: italic;
+	padding-left: 30px;
 }
 
 .resume .resume-section .details {
 	padding: 5px;
+	margin-left: 20px;
 }
 
 .resume-section-card {
 	padding-right: 30px;
 }
 
-.resume-section-card .card-name, 
-.resume-section-card .location, 
+.resume-section-card .card-name,
+.resume-section-card .location,
 .resume-section-card .time {
 	display: inline-block;
 	font-size: 14px;
@@ -88,4 +108,27 @@
 
 .resume-section-card .skills {
 	font-style: italic;
+	font-size: 15px;
+}
+
+.resume .experience-card-sections {
+	margin: 5px 0;
+}
+
+.resume .experience-card-sections .title{
+	font-weight: normal;
+	min-width: 0;
+	max-width: 90px;
+	padding: 0;
+	padding-right: 5px;
+	font-size: 13px;
+}
+
+.resume .experience-card-sections .content{
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+.resume .projects-section .details {
+	margin-left: 40px;
 }

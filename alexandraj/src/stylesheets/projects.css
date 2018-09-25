@@ -1,0 +1,15 @@
+.projects {
+	max-width: 100%;
+}
+
+.projects .intro {
+	text-align: center;
+	font-size: 28px;
+	padding: 40px;
+	color: dimgrey;
+}
+
+.projects .help {
+	text-align: center;
+	padding-bottom: 30px;
+}

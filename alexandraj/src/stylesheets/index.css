@@ -1,0 +1,21 @@
+/* GENERAL */
+
+html {
+	width: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div {
+	box-sizing: border-box
+}
+
+.special-text {
+	font-family: unifont;
+	display: inline;
+}

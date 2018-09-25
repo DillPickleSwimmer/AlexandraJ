@@ -3,11 +3,14 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	max-width: 100%
 }
 
 .about-page .photo {
 	width: 400px;
 	height: 400px;
+	max-width: 100%;
+	margin: 10px;
 	border-radius: 200px;
 	background-image: url('../assets/me.png');
 	background-position: center center;
@@ -15,13 +18,28 @@
 	background-repeat: no-repeat;
 }
 
-.about-page .linkedin {
-	width: 40px;
-	height: 40px;
-	background-image: url('../assets/linkedin-logo.png');
+.about-page .social-media {
+	display: flex;
+	flex-direction: row;
+	max-width: 100%;
+	flex-wrap: wrap;
+}
+
+.about-page .social-media div {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	margin: 4px;
+}
+
+.about-page .linkedin {
+	background-image: url('../assets/linkedin-logo.png');
+}
+
+.about-page .github {
+	background-image: url('../assets/github.png');
 }
 
 .about-page .content {

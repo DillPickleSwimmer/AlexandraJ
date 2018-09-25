@@ -1,3 +1,7 @@
+.section {
+	max-width: 100%;
+}
+
 .section .section-head { 
 	width: 100%;
 	height: 400px;
@@ -10,12 +14,16 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center
-	3
+	justify-content: center;
 }
 
 .splash-section .section-head  {
 	height: 90vh;
+}
+
+
+.splash-section .splash  {
+	text-align: center;
 }
 
 .splash-section .section-content {
@@ -28,6 +36,11 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
+}
+
+.splash-section .fixed-title .main-title {
+	font-size: 44px;
 }
 
 .splash-section .splash-down-arrow {

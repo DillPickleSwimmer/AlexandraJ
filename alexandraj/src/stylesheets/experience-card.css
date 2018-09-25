@@ -34,6 +34,10 @@
 	background-image: url('../assets/UW_logo1.png');
 }
 
+.experience-card .uber .logo {
+	background-image: url('../assets/uber-logo.png');
+}
+
 .experience-card .redbooth .logo {
 	background-image: url('../assets/redbooth_logo.jpg');
 }
@@ -53,6 +57,8 @@
 .experience-card .company {
 	font-family: 'Spectral SC';
 	font-size: 26px;
+	width: 100%;
+	text-align: center;
 }
 
 .experience-card .title {
@@ -60,6 +66,8 @@
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 30px;
+	width: 100%;
+	text-align: center;
 }
 
 .experience-card .description {
@@ -107,4 +115,3 @@
 	min-width: 0;
 	padding: 5px;
 }
-
