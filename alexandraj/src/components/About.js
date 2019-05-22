@@ -8,33 +8,30 @@ class About extends Component {
         <div className="photo"></div>
         <div className="content">
           <div className="title main-title">Hey, I'm Alexandra!</div>
-          <div className="sub-title">Welcome to my website, your #1 source for info about my experience and projects.</div>
           <div className="sub-sections">
             <div className="sub-section skills">
               <div className="mini-title">Recent Experience</div>
               <ul>
-                <li>Javascript</li>
-                <li>ReactJS, Native</li>
-                <li>C++/C</li>
-                <li>Rails</li>
+                <li>Javascript (React)</li>
+                <li>Golang</li>
                 <li>SQL</li>
               </ul>
             </div>
             <div className="sub-section learn">
               <div className="mini-title">Learning Objectives</div>
               <ul>
-                <li>Native Android/IOS Development</li>
-                <li>Backend skills</li>
                 <li>New frontend experience; JS frameworks</li>
-                <li>Impactful, interesting projects</li>
+                <li>User experience and customer facing products</li>
+                <li>Backend skills</li>
+                <li>Native Android/IOS Development</li>
               </ul>
             </div>
             <div className="sub-section hobbies">
               <div className="mini-title">Hobbies</div>
               <ul>
-                <li>Skiing (Founder of the Unofficial Waterloo Ski Club)</li>
-                <li>Mountain Hikes</li>
-                <li>Video Games</li>
+                <li>Hiking</li>
+                <li>World Traveling</li>
+                <li>Swimming</li>
               </ul>
             </div>
           </div>

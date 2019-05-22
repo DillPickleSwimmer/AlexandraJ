@@ -8,7 +8,7 @@ class Education extends Component {
       <div className="education experience-card-wrapper">
         <ExperienceCard
           company="University of Waterloo"
-          position="Bachelor of Software Engineering - 3A"
+          position="Bachelor of Software Engineering - 4A"
           city="Waterloo"
           state="Ontario"
           country="Canada"
@@ -18,9 +18,6 @@ class Education extends Component {
         >
           <Sections title="Awards" colorCode={1}>
             President's Scholarship of Distinction
-          </Sections>
-          <Sections title="Extra" colorCode={1}>
-            Unofficial Waterloo Ski Club Founder (80+ members)
           </Sections>
         </ExperienceCard>
         <ExperienceCard

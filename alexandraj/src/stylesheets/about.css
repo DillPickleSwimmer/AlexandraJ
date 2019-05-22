@@ -10,9 +10,9 @@
 	width: 400px;
 	height: 400px;
 	max-width: 100%;
-	margin: 10px;
+    margin: 10px;
 	border-radius: 200px;
-	background-image: url('../assets/me.png');
+	background-image: url('../assets/me.jpg');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -55,11 +55,6 @@
 .about-page .main-title {
 	font-weight: bold;
 	font-size: 26px;
-}
-
-.about-page .sub-title {
-	padding-bottom: 20px;
-	font-size: 16px;
 }
 
 .about-page .resume-button-wrapper {

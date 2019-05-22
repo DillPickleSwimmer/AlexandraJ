@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects">
-        <div className="intro">Here are some of the projects I have worked on or am currently working on!</div>
+        <div className="intro">Personal & group projects I've worked on</div>
         <div className="help">Hover/click on tiles for details.</div>
         <div className="project-card-wrapper">
           <Card
@@ -23,6 +23,20 @@ class Projects extends Component {
             <a href="https://github.com/DillPickleSwimmer/AlexandraJ" target="_blank"  rel="noopener noreferrer">Github Link</a>
           </ Card>
           <Card
+            title="Course Planner FYDP"
+            overview="In Progress - A web application to simplify process of planning courses at UW"
+            imageClass="watcourse"
+            skills={['Javascript (React)', 'Python (Flask)', 'Wireframing', 'Application Devlopment']}
+          >
+            <ul>
+              <li>Team of 6 students, for our Fourth Year Design Project (FYDP).</li>
+              <li>Availability, pre-requisite, anti-requisite checking.</li>
+              <li>Course recommendations if not accepted into a course.</li>
+              <li>Automatic plan generation based on shortlisted courses.</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1Epf-AqSz8KV6IC-bdbMCrURLtAvefD2k/view" target="_blank" rel="noopener noreferrer">Demo Link</a>
+          </ Card>
+          <Card
             title="C++ Visual Card Game"
             overview="Applies MVP design pattern in C++ to program a graphical card game (with GUI)."
             imageClass="cppcards"
@@ -35,20 +49,6 @@ class Projects extends Component {
               <li>Implemented graphics using GTKMM library.</li>
               <li>Visual card game application with multiple players and varying difficulty of AI's.</li>
             </ul>
-          </ Card>
-          <Card
-            title="Unofficial Waterloo Ski Club"
-            overview="Founder and leader of 90+ member ski club in Waterloo area."
-            imageClass="uwskiclub"
-            skills={['Leadership', 'Communication']}
-          >
-            <ul>
-              <li>Started in 1st year to help organize small carpools to ski hills
-                (a need that was not filled by the official university winter sports club).</li>
-              <li>90+ members as of Jan 2018.</li>
-              <li>Organize occasional small trips to Blue Mountain/Chicopee</li>
-            </ul>
-            <br /><a href="https://www.facebook.com/groups/WaterlooSkiClub/" target="_blank"  rel="noopener noreferrer">Club Facebook Page</a>
           </ Card>
           <Card
             title="Tiva Launchpad Minigames"
@@ -136,28 +136,6 @@ class Projects extends Component {
               <li>Project of 2 students.</li>
               <li>Visual basic 6 games: multiplayer battleship on school server, frogger</li>
               <li>Customizable lessons, quizzes, accounts, score-keeping so teachers could use to teach, test, and quiz students.</li>
-            </ul>
-          </ Card>
-          <Card
-            title="Nuclear Power Plant Applications"
-            overview="Requested app requested by connections in nuclear industry"
-            imageClass="comingsoon"
-            skills={['React Native', 'Mobile Dev']}
-          >
-            <ul>
-              <li>Develop an app for assigning work to employees with pre-job brief saftety considerations.</li>
-              <li>Develop an app for tracking valve locks to improve safety and efficiency.</li>
-            </ul>
-          </ Card>
-          <Card
-            title="Course Planner"
-            overview="Team of 5 students creating website for managing course dependencies."
-            imageClass="comingsoon"
-            skills={['Wireframing', 'Application Devlopment']}
-          >
-            <ul>
-              <li>Allow students to choose desired course shortlist and arange courses to manage dependencies to plan when to take what.</li>
-              <li>Practice project to prepare for Fourth Year Design Project.</li>
             </ul>
           </ Card>
         </div>

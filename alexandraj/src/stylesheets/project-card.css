@@ -122,3 +122,7 @@
 .project-card .cppcards {
 	background-image: url('../assets/cppcards.png');
 }
+
+.project-card .watcourse {
+    background-image: url('../assets/watcourse.png')
+}

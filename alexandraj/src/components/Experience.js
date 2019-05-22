@@ -8,20 +8,43 @@ class Experience extends Component {
       <div className="experience experience-card-wrapper">
       <ExperienceCard
         company="Uber"
-        description="Eats Restaurant Experinece Team"
-        position="Front-end Engineering Intern"
-        city="New York"
-        state="New York"
+        description="Rider Rewards Integration Platform"
+        position="Back-end Engineering Intern"
+        city="San Francisco"
+        state="California"
         country="USA"
         startDate="May"
         endDate="Aug 2018"
         className="uber"
       >
         <Sections title="Skills" colorCode={1}>
+          Golang, Glue, Kafka, SQL, DOSA, Bash, Integration & Load Testing
+        </Sections>
+        <Sections title="Benefit Nudges" colorCode={1}>
+          Enabled CRM to send benefit emails via Uber's IFTTT engine.
+          <br />Built endpoints, Kafka topics, database backfills to support benefit conditions.
+        </Sections>
+        <Sections title="Tier History Support" colorCode={1}>
+          Allow support to access user benefit tier history.
+          <br />Built endpoints in core & gateway services, database queries.
+        </Sections>
+      </ExperienceCard>
+      <ExperienceCard
+        company="Uber"
+        description="Eats Restaurant Experience Team"
+        position="Front-end Engineering Intern"
+        city="New York"
+        state="New York"
+        country="USA"
+        startDate="Jan"
+        endDate="Apr 2019"
+        className="uber"
+      >
+        <Sections title="Skills" colorCode={1}>
           JavaScript, ReactJS(Native), Redux, Sagas, Enzyme, Tape, Phabricator
         </Sections>
         <Sections title="Out Of Item" colorCode={1}>
-          Added capability to notify customer of order issues and handle modified orders.
+          Added ability to notify customer of order issues and handle modified orders.
           <br />Anticipated to reduce order cancellations significantly.
         </Sections>
         <Sections title="Restaurant Dashboard" colorCode={1}>
